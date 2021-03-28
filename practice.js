@@ -278,6 +278,7 @@ if((dolphinaveragescore>Koalaaveragescore) && (dolphinaveragescore>=100)){
     console.log(`no one is winner`);
 };
 console.log(`show the message`);
+console.log(`show the message again`);
 
 
 
