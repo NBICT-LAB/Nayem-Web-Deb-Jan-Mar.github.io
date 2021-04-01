@@ -253,6 +253,7 @@ if (MarkBMI>JohnBMI){
 };
 
 console.log(`Mark's BMI ${MarkBMI} is higher than John's ${JohnBMI}`);*/
+/*
 
 let DolphinFirstScore = Number(prompt(`Dolphin First Score`));
 let DolphinSecondScore = Number(prompt(`Dolphin Second Score`));
@@ -280,6 +281,46 @@ if((dolphinaveragescore>Koalaaveragescore) && (dolphinaveragescore>=100)){
 console.log(`show the message`);
 console.log(`show the message again`);
 
+const day = prompt(`Enter the day`);
 
+switch(day){
+    case   'monday':
+        console.log(`take preperation for online classes`);
+        break;
+    case  'tuesday':
+        console.log (`take exam preperation`);
+        break;
+    case  'wednesday':
+    case  'thursday':
+        console.log(`visiting outside`);
+        console.log(`making video tutorial`);
+        break;
+    case  'friday':
+        console.log(`hangout with friends`);
+        break;
+    case  'saturday':
+    case  'sunday':
+        console.log(`office management`);
+        console.log(`teaching offline`);
+        break;
+    default:
+        console.log(`Invalid Day`);
+}*/
 
+let day= prompt(`Enter the day`);
 
+if (day === 'monday'){
+    console.log(`take preperation for online class`);
+}else if(day === 'tuesday'){
+    console.log(`take job preperation`);
+}else if(day === 'wednesday' || day === 'thursday'){
+    console.log(`take job preperation`);
+}else if(day === 'friday'){
+    console.log(`hangout with friends`);
+}else if(day === 'saturday'){
+    console.log(`play cricket`);
+}else if(day === 'sunday'){
+    console.log(`play football`);
+}else{
+    console.log(`Invalid code`);
+}
