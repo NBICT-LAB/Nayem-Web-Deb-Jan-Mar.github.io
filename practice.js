@@ -331,12 +331,13 @@ const age = 30;
 
 //age >= 18 ? console.log(`I like to drink wine!`) : console.log(`I like to drink water!`);
 
-//const drink = age >= 18 ? 'wine' : 'water' ;
+const drink = age >= 18 ? 'wine' : 'water' ;
 console.log(`${drink}`);
 
-if (age >=18){
+/*if (age >=18){
    drink='wine'
 }else{
    drink='water'
 };
-console.log(`${drink}`);
+console.log(`${drink}`);*/
+
