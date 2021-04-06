@@ -2,8 +2,29 @@
     <head>
         <title>Java script practice</title>
         <script src="practice.js"></script>
+        <style>
+            #box1{
+                background-color: #96CEFF;
+                width: 400px;
+                height: 200px;
+            }
+        </style>
+        <script>
+            function ColorChange(element,color){
+            element = document.getElementById(element);
+           element.style.transition = "background 1s linear 0s";
+           element.style.background = color; 
+            }
+        </script>
     </head>
 <body>
+    <button onclick="ColorChange('box1','#F0F')">Click Here to Change Color
+    </button>
+
+    <div id="box1">
+        The sample texts will go here....
+    </div>
 
 </body>
+
 </html>

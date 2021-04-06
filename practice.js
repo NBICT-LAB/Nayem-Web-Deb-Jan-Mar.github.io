@@ -348,7 +348,7 @@ let tip = 50<=bill<=300 ? (bill*15/100) :(bill*20/100) ;
 
 FinalBill= bill + tip;
 
-console.log(`your final tip is ${tip}, and Total bill is ${FinalBill}`);*/
+console.log(`your final tip is ${tip}, and Total bill is ${FinalBill}`);
 
 const bill= Number(prompt('Enter Your Bill'));
 
@@ -356,7 +356,7 @@ const tip = bill>=50 && bill <=300 ? bill*(15/100) : bill*(20/100);
 
 TotlaBill = tip+bill;
 
-console.log(`Your Bill is ${bill} and Tip is ${tip}, Your Grand Total is ${TotlaBill}`);
+console.log(`Your Bill is ${bill} and Tip is ${tip}, Your Grand Total is ${TotlaBill}`);*/
 
 
 
