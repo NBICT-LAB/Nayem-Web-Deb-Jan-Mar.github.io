@@ -327,7 +327,7 @@ if (day === 'monday'){
 
 //ternary operator
 
-const age = 30;
+//const age = 30;
 
 //age >= 18 ? console.log(`I like to drink wine!`) : console.log(`I like to drink water!`);
 
@@ -339,7 +339,24 @@ const age = 30;
 }else{
    drink='water'
 };
-console.log(`${drink}`);*/
+console.log(`${drink}`);
 
-console.log(`I like to drink ${age>=18 ? 'wine' : 'water'}.`);
+console.log(`I like to drink ${age>=18 ? 'wine' : 'water'}.`)
+
+let bill = prompt('enter the bill');
+let tip = 50<=bill<=300 ? (bill*15/100) :(bill*20/100) ;
+
+FinalBill= bill + tip;
+
+console.log(`your final tip is ${tip}, and Total bill is ${FinalBill}`);*/
+
+const bill= Number(prompt('Enter Your Bill'));
+
+const tip = bill>=50 && bill <=300 ? bill*(15/100) : bill*(20/100);
+
+TotlaBill = tip+bill;
+
+console.log(`Your Bill is ${bill} and Tip is ${tip}, Your Grand Total is ${TotlaBill}`);
+
+
 
